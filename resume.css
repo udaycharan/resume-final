@@ -1,0 +1,346 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.75rem;
+}
+* {
+  box-sizing: border-box;
+}
+body,
+html {
+  background-image: linear-gradient(
+    to right,
+    rgba(235, 227, 227, 0.44),
+    rgba(184, 182, 182, 0.44),
+    rgba(155, 150, 150, 0.44),
+    rgba(235, 227, 227, 0.44)
+  );
+  background-blend-mode: hue;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  background-repeat: repeat-y;
+  background-size: cover;
+  height: 185vh;
+  width: 100vw;
+}
+
+.main-container {
+  background-color: #c7bcaa;
+  border-radius: 2.8rem;
+  box-shadow: 0.5rem 1rem 0.5rem #cccccc, 1rem 1rem 1rem #cccccc;
+  -webkit-box-shadow: 0.5rem 1rem 0.5rem #cccccc, 1rem 1rem 1rem #cccccc;
+  -moz-box-shadow: 0.5rem 1rem 0.5rem #cccccc, 1rem 1rem 1rem #cccccc;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  /* border: .5rem solid #ebe3e3; */
+  transform: translate(-50%, -50%);
+  margin: 0px 70px 0px 70px;
+  width: 65%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  filter: drop-shadow(60%);
+}
+.primary-header {
+  position: relative;
+  top: 2%;
+  background-color: #5f939a;
+  width: 100%;
+  height: 15%;
+  padding: 0 5rem 0 5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-container {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.address-container ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: none;
+  line-height: 4rem;
+  height: 100%;
+}
+.address-container ul li {
+  font-size: 2rem;
+  color: #e2d6d6;
+  font-weight: 300;
+  padding-right: 3rem;
+  text-shadow: 3px 5px 0px #3a6351;
+}
+h1 {
+  margin-left: 30rem;
+  padding-right: 4rem;
+  color: #e2d6d6;
+  font-size: 4rem;
+  font-weight: 300;
+  text-shadow: 3px 5px 0px #3a6351;
+}
+
+#image {
+  position: absolute;
+  top: 20px;
+  z-index: 1;
+  margin: 5px;
+  width: 700px;
+  height: 950px;
+  border-radius: 1rem;
+}
+
+.main-content {
+  position: relative;
+  top: 2%;
+  transform: translateY(15%);
+  display: flex;
+  border-radius: 14px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.education {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 3rem;
+  letter-spacing: 2px;
+  width: 95%;
+  color: #646363;
+  border: 1px solid #9e9a9a;
+  border-radius: 2rem;
+  margin-left: 4rem;
+}
+.box-1 {
+  margin-right: 4rem;
+  width: 25%;
+}
+.box-1 li {
+  letter-spacing: 2px;
+}
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #6b6969;
+  padding-left: 4rem;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+}
+.skills {
+  box-sizing: border-box;
+  width: 95%;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 3rem;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  padding-right: 1rem;
+  color: #646363;
+  border-radius: 2rem;
+  border: 1px solid #9e9a9a;
+  margin-left: 4rem;
+}
+.box-2 {
+  width: auto;
+  margin-left: 5rem;
+  display: flex;
+  flex-direction: row;
+  list-style-type: decimal;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box-2 li {
+  margin-left: 0.5rem;
+  padding: 1rem;
+  letter-spacing: 2px;
+}
+.box-3 {
+  line-height: 3rem;
+  margin-left: 4rem;
+}
+.projects {
+  box-sizing: border-box;
+  width: 95%;
+  font-size: 2rem;
+  line-height: 3rem;
+  font-size: 2rem;
+  margin-left: 4rem;
+  border-radius: 2rem;
+  border: 1px solid #9e9a9a;
+  color: #646363;
+}
+.experience {
+  box-sizing: border-box;
+  width: 95%;
+  font-size: 2rem;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 3rem;
+  margin-left: 4rem;
+  border-radius: 2rem;
+  border: 1px solid #9e9a9a;
+  color: #646363;
+}
+.experience ol li {
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+#marks {
+  height: 55px;
+}
+.projects {
+  margin-left: 4rem;
+  font-size: 2rem;
+  line-height: 4rem;
+}
+.projects ol li {
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+#awards {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 4rem;
+  margin-left: 4rem;
+}
+.social-media {
+  width: 95%;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-left: 4rem;
+}
+a {
+  color: hsl(240, 62%, 68%);
+}
+ul {
+  list-style-type: disc;
+}
+
+.button {
+  position: relative;
+  opacity: 1;
+  top: 0%;
+  left: 55%;
+  font-size: 2rem;
+  color: #f7f7f7;
+  width: 13%;
+  height: 105%;
+  padding: 0.5em;
+  font-weight: 600;
+  border: none;
+  background-color: #068899;
+  border-radius: 1.5rem;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+#linkedin {
+  text-decoration: none;
+  font-size: 2.5rem;
+  margin: 1rem;
+  font-weight: 700;
+}
+#facebook {
+  text-decoration: none;
+  font-size: 2.5rem;
+  margin: 1rem;
+  font-weight: 700;
+}
+#gitHub {
+  text-decoration: none;
+  font-size: 2.5rem;
+  margin: 1rem;
+  font-weight: 700;
+}
+#linkedin:hover {
+  color: #0049ff;
+}
+#facebook:hover {
+  color: #0000ff;
+}
+#github:hover {
+  color: #45af2a;
+}
+
+ol li {
+  list-style-type: none;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+footer {
+  position: relative;
+  transform: translateY(180%);
+  font-size: 3rem;
+  background-color: transparent;
+  height: 20%;
+  text-align: center;
+  color: #6b6969;
+}
+
+#back {
+  text-decoration: none;
+  position: absolute;
+  font-size: 2.5rem;
+  top: 2%;
+  color: #5f939a;
+  left: 15%;
+  z-index: 2;
+}
+#upload {
+  width: 14rem;
+  box-shadow: 0.5rem 1rem 0.5rem #cccccc, 0.8rem 0.5rem 0.8rem #cccccc;
+  height: 6rem;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 2.5rem;
+  background-color: #5f939a;
+  color: #ffffff;
+  position: fixed;
+  top: 85%;
+  left: 87%;
+  border: none;
+}
+#upload:hover {
+  cursor: pointer;
+}
+
+progress[value] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 40px;
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: lightgray;
+  border-radius: 15px;
+  box-shadow: 1px 2px 3px rgba(255, 255, 255, 0.2);
+}
+progress[value]::-webkit-progress-value {
+  background-color: #5f939a;
+  border-radius: 20px;
+}
+
+#marks {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 40px;
+}
+.icon {
+  margin-right: 15px;
+}
